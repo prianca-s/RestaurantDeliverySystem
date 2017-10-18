@@ -12,7 +12,7 @@ import java.util.List;
  *         Part of delivery
  *         on 05/10/17.
  */
-public class SwiggyAllocation {
+public class AllocationSystem {
     public static void main(String[] args) throws ParseException {
         AllocationManager allocationManager = AllocationManagerImpl.getInstance();
         List<Assignment> assignmentList = allocationManager.performAllocation();
